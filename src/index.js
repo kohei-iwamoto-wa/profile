@@ -3,12 +3,17 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Profile from './Profile';
+import Skill from './Skill';
+import Sns from  './Sns';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <div>
     <App />
     <Profile />
+    <Skill />
+    <Sns />
+
  </div>,
 
  document.getElementById('root'));

@@ -10,10 +10,6 @@ import * as serviceWorker from './serviceWorker';
 ReactDOM.render(
   <div>
     <App />
-    <Profile />
-    <Skill />
-    <Sns />
-
  </div>,
 
  document.getElementById('root'));

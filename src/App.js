@@ -21,8 +21,8 @@ class App extends Component {
           <h2>Kohei Iwamoto</h2>
            <ul>
              <li><Link to="/">PROFILE</Link></li>
-             <li><Link to="/">SKILL</Link></li>
-             <li><Link to="/">SNS</Link></li>
+             <li><Link to="/Skill">SKILL</Link></li>
+             <li><Link to="Sns/">SNS</Link></li>
            </ul>
            <Switch>
             <Route exact path="/" component={Profile} />

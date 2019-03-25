@@ -7,6 +7,10 @@ a{
   color: #FFFFFF;
   text-decoration: none;
 }
+li:hover {
+	background-color: #FFCC00;
+	text-decoration: inherit;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -72,10 +76,28 @@ span{
   height:250px;
   width: 400px;
 }
+/* ロゴフォントオーサム */
+.fab.fa-html5{
+  font-size: 100px;
+}
+.fab.fa-css3-alt{
+ font-size: 100px;
+}
 
+.fab.fa-js-square{
+  font-size:100px;
+}
 
+.fab.fa-github{
+  font-size: 100px;
+}
 
-
+.fab.fa-react{
+  font-size: 100px;
+}
+.fas.fa-atom{
+  font-size: 100px;
+}
 .profile-page{
   margin:0 auto;
   height:100%;

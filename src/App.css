@@ -7,6 +7,9 @@ a{
   color: #FFFFFF;
   text-decoration: none;
 }
+h3{
+  text-align: center;
+}
 li:hover {
 	background-color: #FFCC00;
 	text-decoration: inherit;
@@ -52,10 +55,19 @@ body{
 
   height:300px;
   width:400px;
+  margin-top:20px;
 }
+.work-box__thumbnail{
+  padding-left: 125px;
+  width:550px;
+  /* padding-right: 150px; */
+}
+/* .work-box__description{
+  widh:1000px;
+} */
 .top-image{
   /* background-color: #FFFFFF; */
-  height:100vh;
+  height:calc(100vh - 75px);
   width:100vw;
   background: cover;
   background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/0f1a3a32-d741-42a4-83d2-0fede999590b/d1d9x6f-2fba1955-9bc9-40fc-bad2-21aacae9cffe.jpg/v1/fill/w_900,h_655,q_70,strp/blue_sky_by_cattycass_d1d9x6f-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NjU1IiwicGF0aCI6IlwvZlwvMGYxYTNhMzItZDc0MS00MmE0LTgzZDItMGZlZGU5OTk1OTBiXC9kMWQ5eDZmLTJmYmExOTU1LTliYzktNDBmYy1iYWQyLTIxYWFjYWU5Y2ZmZS5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.DhCs2giPMpUBcnmFf2JHelliMUmbt_Kfqhw3vkycdK4");
@@ -68,6 +80,10 @@ body{
     100% {opacity: 1}
 }
 span{
+
+}
+.title-message{
+  padding-top: 20px;
   font-size: 30px;
   color:#FFFFFF;
 }
@@ -75,6 +91,7 @@ span{
 .imageSize{
   height:250px;
   width: 400px;
+
 }
 /* ロゴフォントオーサム */
 .fab.fa-html5{
@@ -99,7 +116,11 @@ span{
   font-size: 100px;
 }
 .profile-page{
-  margin:0 auto;
+  padding:20px;
+   box-shadow: 0 0 8px gray;
+   border-radius: 20px;
+  margin:50px auto;
   height:100%;
   width:700px;
+
 }

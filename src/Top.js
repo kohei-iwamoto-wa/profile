@@ -4,7 +4,7 @@ class App extends Component {
   render(){
    return(
      <div className="top-image">
-       <span>profile  site</span>
+       <div className="title-message">profile  site</div>
      </div>
     );
   }

@@ -3,10 +3,13 @@ import React, { Component } from 'react';
 class App extends Component {
   render(){
    return(
-     <div>
+     <div className="profile-page">
        <h3>profile</h3>
-       <p className="my-name">Kohei Iwamoto</p>
-       <p className="my-age">age:28</p>
+       <div className="">
+
+       </div>
+       <p className="my-name">name: Kohei Iwamoto</p>
+       <p className="my-age">age: 28</p>
        <div className="profile">
          フロントエンジニアを目指して勉強中。
          現在React.js学習中。

@@ -1,3 +1,5 @@
+
+
 *{
  box-sizing: border-box;
 }
@@ -40,6 +42,11 @@ li{
 body{
   height:100vh;
 
+}
+.work-box{
+  background-color: black;
+  height:250px;
+  width:400px;
 }
 .main-content{
   margin: 0 auto;

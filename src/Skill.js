@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class App extends Component {
   render(){
    return(
-     <div className="skill">
+     <div className="main-content">
        <h3>SKILL</h3>
        <h4>言語</h4>
        <p>HTML</p>

@@ -5,6 +5,8 @@ import App from './App';
 import Profile from './Profile';
 import Skill from './Skill';
 import Sns from  './Sns';
+import Works from  './Works';
+import Top from './Top';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

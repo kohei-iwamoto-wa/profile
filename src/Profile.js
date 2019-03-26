@@ -11,8 +11,8 @@ class App extends Component {
        <p className="my-name">name: Kohei Iwamoto</p>
        <p className="my-age">age: 28</p>
        <div className="profile">
-         フロントエンジニアを目指して勉強中。
-         現在React.js学習中。
+         <p>フロントエンジニアを目指して勉強中。
+         現在React.js学習中。</p>
 
        <div className="carrier">
          <p>2014年大学卒業　専攻は福祉</p>
@@ -29,9 +29,7 @@ class App extends Component {
         <p>ギターを3年くらいやっています。</p>
         <p>学生時代は琵琶湖でブラックバス釣るのが好きでした。</p>
       </div>
-
     </div>
-
   </div>
     );
   }

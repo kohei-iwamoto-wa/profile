@@ -14,6 +14,9 @@ li:hover {
 	background-color: #FFCC00;
 	text-decoration: inherit;
 }
+p{
+  text-align: center;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -129,13 +132,35 @@ body{
 .imageSize {
   height:250px;
   width: 400px;
-  background: #ff006a;
-  color: #fff;
-  transition: all .5s;
 }
 
-.imageSize :hover {
-  transform: translateY(-2px);
-  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
-  opacity: 0.7;
+.top-image-appear{
+  opacity: 0.4;
+}
+
+.top-image-appear-active{
+  opacity: 0.9;
+  background-color: yellow;
+  transition: opacity 500ms ease-in;
+}
+
+
+
+.languages-box{
+  padding-left: 10px;
+  width: 100px;
+  height: 500px;
+  margin:0 auto;
+}
+.framework-box{
+  padding-left: 10px;
+  width: 100px;
+  height: 500px;
+  margin:0 auto;
+}
+.environment-box{
+  padding-left: 10px;
+  width: 100px;
+  height: 500px;
+  margin:0 auto;
 }

@@ -5,7 +5,7 @@ class App extends Component {
    return(
      <div className="profile-page">
        <h3>profile</h3>
-       <div className="">
+       <div className="profile-content">
 
        </div>
        <p className="my-name">name: Kohei Iwamoto</p>

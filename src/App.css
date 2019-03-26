@@ -79,20 +79,14 @@ body{
     0% {opacity: 0}
     100% {opacity: 1}
 }
-span{
 
-}
 .title-message{
   padding-top: 20px;
   font-size: 30px;
   color:#FFFFFF;
 }
 
-.imageSize{
-  height:250px;
-  width: 400px;
 
-}
 /* ロゴフォントオーサム */
 .fab.fa-html5{
   font-size: 100px;
@@ -123,4 +117,25 @@ span{
   height:100%;
   width:700px;
 
+}
+.profile-content{
+  padding:0 auto;
+}
+/* スキルページ */
+.skill-page{
+  padding-left:0px;
+}
+
+.imageSize {
+  height:250px;
+  width: 400px;
+  background: #ff006a;
+  color: #fff;
+  transition: all .5s;
+}
+
+.imageSize :hover {
+  transform: translateY(-2px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+  opacity: 0.7;
 }

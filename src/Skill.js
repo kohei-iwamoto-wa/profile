@@ -9,7 +9,7 @@ class App extends Component {
          <h3>Languages</h3>
            <div className="languages-box">
              <i class="fab fa-html5"></i>
-             <p>HTML</p>
+             <p>HTML&HAML</p>
              <i class="fab fa-css3-alt"></i>
              <p>CSS&SCSS</p>
              <i class="fab fa-js-square"></i>

@@ -17,8 +17,6 @@ class App extends Component {
           </div>
          <h3>Framework</h3>
            <div className="framework-box">
-             <i class="fab fa-js-square"></i>
-             <p>Ruby On Rales</p>
              <i class="fab fa-react"></i>
              <p>React.js</p>
           </div>
